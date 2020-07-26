@@ -530,7 +530,7 @@ img {
 
 .overlay-dark::after {
     background-color: rgba(16, 16, 45, 1);
-    opacity: 0.80;
+    opacity: 0.20;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
     z-index: -1;
 }
@@ -627,7 +627,7 @@ img {
 }
 
 .download-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/download-bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/logo/poly-bg.png") no-repeat fixed center center / cover;
 }
 
 .subscribe-area {
