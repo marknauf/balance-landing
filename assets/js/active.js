@@ -29,12 +29,6 @@
                 $(this).remove();
             });
         }
-        setTimeout(function () {
-            $("#cookieConsent").fadeIn(200);
-         }, 1000);
-        $("#closeCookieConsent, .cookieConsentOK").click(function() {
-            $("#cookieConsent").fadeOut(200);
-        }); 
     });
 
     // :: 2.0 NAVIGATION MENU ACTIVE CODE
