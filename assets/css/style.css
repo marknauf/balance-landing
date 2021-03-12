@@ -506,6 +506,13 @@ img {
     transform: rotate(180deg);
 }
 
+
+.bg-kids{
+    background-image: url('../img/logo/bg3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
 /*BACKGROUND OVERLAY*/
 .bg-overlay,
 .overlay-dark {
