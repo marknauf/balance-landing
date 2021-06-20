@@ -270,6 +270,7 @@
         // Submit the form using AJAX.
         $.ajax({
                 type: 'POST',
+                dataType : 'jsonp',
                 url: $(form).attr('action'),
                 data: formData
             })
